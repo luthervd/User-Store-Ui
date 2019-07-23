@@ -1,0 +1,32 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.selectable{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.user-form{
+    margin: 5% auto;
+    width: 33%;
+    height: 50%;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.4);
+    header{
+        padding: 50px;
+        background: #ccc;
+        color: #333;
+    }
+    section{
+        padding: 50px;
+        ul{
+            list-style: none;
+        }
+    }
+}
